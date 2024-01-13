@@ -200,6 +200,12 @@ margin-bottom: 8px;
 
 }
 
+.svg-cs{
+width: 64px;
+height: 64px;
+
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
