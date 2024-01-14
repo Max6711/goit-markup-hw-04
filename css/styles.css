@@ -350,14 +350,11 @@ height: 40px;
 
 }
 
-.item_a :hover{
+.item_a :hover :focus{
     background-color: #404bbf;
 
 }
-item_a :focus{
-    background-color: #404bbf;
-    
-}
+
 .item_icons_svg{
     fill: #F4F4FD;
 }
