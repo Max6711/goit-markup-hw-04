@@ -469,3 +469,24 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 h1,h2,h3,h4,h5,h6, p{
     margin: 0;
 }
+.div_footer{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+
+}
+
+.text-p{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+
+}
+.ul-footer{
+    display: flex;
+    gap: 16px;
+ 
+}
