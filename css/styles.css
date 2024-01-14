@@ -333,6 +333,7 @@ height: 64px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    list-style: none;
 }
 .item_icons_li{
 width: 40px;
