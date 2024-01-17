@@ -366,10 +366,6 @@ height: 40px;
 
 }
 
-.item_icons_svg :hover , .item_icons_svg :focus{
-    background-color: #404bbf;
-
-}
 
 .item_icons_svg{
     fill: #F4F4FD;
