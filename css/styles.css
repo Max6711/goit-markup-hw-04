@@ -272,7 +272,10 @@ height: 64px;
     background-color: #F4F4FD;
     padding: 120px 0;
 }
-.item_a:hover , .item_a:focus{
+.item_a:hover {
+    background-color: #404bbf;
+}
+.item_a:focus{
     background-color: #404bbf;
 }
 
