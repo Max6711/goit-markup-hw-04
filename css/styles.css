@@ -68,6 +68,7 @@ img {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    width: 100%
 }
 .header-link-item-first:hover a,
 .header-link-item-first :focus {
@@ -275,9 +276,7 @@ height: 64px;
     background-color: #404bbf;
 
 }
-.item_a:focus{
-    background-color: #404bbf;
-}
+
 .text-f {
     color: #2E2F42;
     text-align: center;
@@ -344,6 +343,7 @@ height: 64px;
     justify-content: center;
     gap: 24px;
     list-style: none;
+    
 }
 .item_icons_li{
 width: 40px;
@@ -362,7 +362,7 @@ height: 40px;
 
 }
 
-.item_icons_svg :hover :focus{
+.item_icons_svg :hover , .item_icons_svg :focus{
     background-color: #404bbf;
 
 }
