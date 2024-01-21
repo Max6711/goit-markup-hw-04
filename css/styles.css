@@ -14,8 +14,6 @@ body {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    align-items: baseline;
 
 }
 
@@ -37,6 +35,10 @@ body {
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
+.mefageret{
+    position: relative;
+    color: #404bbf; 
+}
 
 .header-container {
     display: flex;
@@ -55,12 +57,10 @@ img {
     text-decoration: none;
     padding: 24px 0;
     display: block;
-    position: relative;
-    color: #404bbf; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
-::after{
+.mefageret ::after{
     content: '';
     position: absolute;
     left: 0;
@@ -187,9 +187,8 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin: auto;
     display: block;
-    margin: auto;
+    margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
@@ -299,6 +298,7 @@ height: 64px;
 
 .text-sx {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .list_thrd_ul {
@@ -321,7 +321,6 @@ height: 64px;
 
 .fsiv {
     padding: 32px 0;
-
 }
 
 .text-fv {
@@ -542,10 +541,14 @@ h1,h2,h3,h4,h5,h6, p{
     margin: 0;
 }
 .div_footer{
-    display: flex;
-    align-items: baseline;
     margin-right: 120px;
 
+}
+
+.text-p{
+width: 264px;
+margin-top: 24px;
+color: #FFF;
 }
 
 .footer-social{
@@ -564,4 +567,9 @@ margin-bottom: 16px;
 }
 .item_icons_svg :hover , .item_icons_svg :focus{
 background-color: #31d0aa;
+}
+
+.container-foot {
+    display: flex;
+    align-items: baseline;
 }
